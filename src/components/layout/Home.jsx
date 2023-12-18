@@ -10,7 +10,7 @@ import Banner from "../../assets/images/Banner.png";
 import Mask from "../../assets/images/mask.jpg";
 import MaskTwo from "../../assets/images/maskTwo.png";
 import MaskThree from "../../assets/images/maskThree.png";
-import LastAD from "../../assets/images/LastAd.png";
+import LastAD from "../../assets/images/lastAd.png";
 // fafa
 import Clock from "../../assets/images/clock.png";
 import Watch from "../../assets/images/watch.png";
