@@ -1,6 +1,6 @@
 import React from "react";
 
-const Bars = () => {
+const Bars = ({}) => {
   return (
     <svg
       width="19"

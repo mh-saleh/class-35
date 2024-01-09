@@ -1,12 +1,12 @@
 import React from "react";
-import Flex from "../Flex";
-import Image from "../Image";
-import Container from "../Container";
-import Section from "../Section";
-import Heading from "../Heading";
-import Paragraph from "../Paragraph";
-import List from "../List";
-import Logo from "../../assets/images/logo.png";
+import Flex from "../../Flex";
+import Image from "../../Image";
+import Container from "../../Container";
+import Section from "../../Section";
+import Heading from "../../Heading";
+import Paragraph from "../../Paragraph";
+import List from "../../List";
+import Logo from "../../../assets/images/logo.png";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {

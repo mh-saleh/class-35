@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card";
-import Flex from "./Flex";
+import Card from "../../Card";
+import Flex from "../../Flex";
 
 const Cards = ({ ImageOne, ImageTwo, ImageThree, ImageFour, className }) => {
   return (

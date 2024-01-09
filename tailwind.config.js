@@ -9,6 +9,8 @@ export default {
       },
       colors: {
         secBlack: "#262626",
+        setGray: "#767676",
+        borderColor: "#F0F0F0",
       },
       maxWidth: {
         container: "1600px",
