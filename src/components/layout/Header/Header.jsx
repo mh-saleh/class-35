@@ -17,22 +17,31 @@ const Header = () => {
 
           <ul className="mx-auto">
             <Flex className="gap-10">
-              <li
-                className={`text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}
-              >
-                <Link to="/">Home</Link>
+              <li>
+                <Link
+                  className={`font-bold text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}
+                  to="/"
+                >
+                  Home
+                </Link>
               </li>
 
               <List text="Shop" />
-              <li
-                className={`text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}
-              >
-                <Link to="/about">About</Link>
+              <li>
+                <Link
+                  className={`font-bold text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}
+                  to="/about"
+                >
+                  About
+                </Link>
               </li>
-              <li
-                className={`text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}
-              >
-                <Link to="/contact">Contacts</Link>
+              <li>
+                <Link
+                  className={`font-bold text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}
+                  to="/contact"
+                >
+                  Contacts
+                </Link>
               </li>
               <List text="Journal" />
             </Flex>
