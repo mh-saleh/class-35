@@ -9,7 +9,7 @@ import SubHeading from "../../SubHeading";
 
 const Product = () => {
   return (
-    <section className="my-32">
+    <section className="my-32 px-[1vw]">
       <Container>
         <div className="my-32">
           <SubHeading text={`Products`} />
