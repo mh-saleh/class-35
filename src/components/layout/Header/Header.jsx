@@ -25,8 +25,15 @@ const Header = () => {
                   Home
                 </Link>
               </li>
+              <li>
+                <Link
+                  className={`font-bold text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}
+                  to="/product"
+                >
+                  Shop
+                </Link>
+              </li>
 
-              <List text="Shop" />
               <li>
                 <Link
                   className={`font-bold text-[#6D6D6D] duration-500 hover:text-secBlack text-sm `}

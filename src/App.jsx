@@ -16,6 +16,8 @@ import ProductBttom from "./components/layout/Productpage/ProductBttom";
 import ProductTop from "./components/layout/Productpage/ProductTop";
 import MyAccount from "./components/layout/MyAccountpage/MyAccount";
 import Checkout from "./components/layout/Checkoutpage/Checkout";
+import ProductLeft from "./components/layout/Productpage/ProductLeft";
+import Product from "./components/layout/Productpage/Product";
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/myaccount" element={<MyAccount />} />
+          <Route path="/product" element={<Product />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
 

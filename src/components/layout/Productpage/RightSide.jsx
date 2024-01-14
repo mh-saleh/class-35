@@ -7,7 +7,7 @@ import Flex from "../../Flex";
 
 const RightSide = () => {
   return (
-    <div>
+    <div className="">
       <Flex className={`flex-wrap gap-12`}>
         <Flex className={` gap-10`}>
           <ProductCard
